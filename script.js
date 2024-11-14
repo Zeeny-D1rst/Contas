@@ -26,3 +26,8 @@ function gerarPA() {
     
     document.getElementById("validacao").innerHTML = validacao;
 }
+
+function Bask()
+{
+    
+};
