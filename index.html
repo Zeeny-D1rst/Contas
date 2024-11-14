@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressão Aritmética</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Progressão Aritmética</h1>
+        
+        <label for="primeiroTermo">Primeiro termo:</label>
+        <input type="number" id="primeiroTermo" placeholder="Ex: 5">
+        
+        <label for="razao">Razão:</label>
+        <input type="number" id="razao" placeholder="Ex: 3">
+        
+        <button onclick="gerarPA()">Gerar PA</button>
+
+        <h3>Valores da Progressão Aritmética:</h3>
+        <div id="resultado"></div>
+
+        <h3>Validação dos valores:</h3>
+        <div id="validacao"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
